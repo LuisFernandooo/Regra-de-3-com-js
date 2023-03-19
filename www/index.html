@@ -10,11 +10,18 @@
     <script type="text/javascript" src="components/magro.js"></script>
 </head>
 <body>
-	<h1>Regra de 3</h1>
-
-  <input type="text" placeholder="Primeiro valor" id="pvalor">
-
-  <input type="button" value="Exibir" onclick="result()">
+    <h1>Calculadora Regra de 3</h1>
+ <div class="alinhar">
+<section class="container wrap">
+  <input type="number" placeholder="Valor 1" id="pvalor">
+  <input type="number" placeholder="Valor 2" id="svalor">
+  <input type="number" placeholder="Valor 3" id="tvalor">
+  <input type="number" placeholder="X" readonly>
+</section>
+ </div>
+ <input type="button" value="Calcular" id="botao" onclick="calcular()">
   
+  <h1 id="resultado">
+
 </body>
 </html>

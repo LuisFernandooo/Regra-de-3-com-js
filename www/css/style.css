@@ -1,2 +1,32 @@
-/**/
+*{
+    background-color
+}
 
+.alinhar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 16vw;
+    margin-left: 5vh;
+}
+
+h1{
+    text-align: center;
+    font-family: Helvetica;
+    color: black;
+    font-size: 30px;
+}
+
+input{
+    margin-bottom: 25px;
+    padding: 12px 16px;
+    max-width: 110px;
+    font-size: 20px;
+    border: 3px solid rgb(218, 149, 149);
+    border-radius: 10px;
+    margin-top: 6px;
+}
+
+#botao{
+    margin-left: 15vh;
+}
